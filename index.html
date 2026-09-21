@@ -3,40 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Porfolio</title>
 
-    <link rel="stylesheet" href="styles.css"
-    <link rel="stylesheet" href="mediaqueries.css"
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
+
 <body>
+
+    <!-- DESKTOP NAV -->
     <nav id="desktop-nav">
-    <div class="logo">Reynaldo Opura Jr</div>
-    <div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contaacts">Contacts</a></li>            
-        </ul>
-    </div>
-    </nav>
-    <nav id="hamberger-nav">
         <div class="logo">Reynaldo Opura Jr</div>
-        <div class="hamberger-menu">
-        <div class="hamberger-icon" onclick="toggleMenu()"></div>
-         <span></span>
-         <span></span>
-         <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#Contaacts" onclick="toggleMenu()">Contacts</a></li>             
- </div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
         </div>
     </nav>
+
+
+    <!-- HAMBURGER NAV -->
+    <nav id="hamburger-nav">
+
+        <div class="logo">Reynaldo Opura Jr</div>
+
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <ul>
+                    <li>
+                        <a href="#about" onclick="toggleMenu()">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#Experience" onclick="toggleMenu()">Experience</a>
+                    </li>
+
+                    <li>
+                        <a href="#Projects" onclick="toggleMenu()">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contacts" onclick="toggleMenu()">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
     <script src="script.js"></script>
-    
+
 </body>
 </html>

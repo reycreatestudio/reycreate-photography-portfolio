@@ -64,7 +64,7 @@ a:hover {
 
 /* HAMBURGER MENU&*/
 
-#hamburger-nav{
+#hamburger-nav {
     display: none;
 }
 
@@ -91,10 +91,10 @@ a:hover {
 .menu-links {
     position: absolute;
     top: 100%;
-    right: 0%;
+    right: 0;
     background-color: white;
     width:fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out 
+    transition: all 0.3 ease-in-out;
 }
